@@ -1,0 +1,96 @@
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    {{station.name}}  
+  </h2>
+   {{> latestconditions station=station }}
+  
+  
+  
+  <div class="ui segment" id="tempChart"></div>
+  <script>
+    const tempdata = {
+    labels: [
+      {{#each reading.trendLabels}}
+        "{{this}}",
+      {{/each}}
+    ],
+    datasets: [
+      {
+        name: "Temperature", type: "line",
+        values: [
+          {{#each reading.tempTrend}}
+            {{this}},
+          {{/each}}
+        ]
+      }
+    ]
+  }
+  const tempChart = new frappe.Chart("#tempChart", {
+    title: "Temperature Trend",
+    data: tempdata,
+    type: 'line',
+    height: 250,
+  })
+</script>
+  
+  <div class="ui segment" id="windChart"></div>
+<script>
+  const winddata = {
+    labels: [
+      {{#each reading.trendLabels}}
+        "{{this}}",
+      {{/each}}
+    ],
+    datasets: [
+      {
+        name: "Wind Speed", type: "line",
+        values: [
+          {{#each reading.windTrend}}
+            {{this}},
+          {{/each}}
+        ]
+      }
+    ]
+  }
+
+  const windChart = new frappe.Chart("#windChart", {
+    title: "Wind Speed Trend",
+    data: winddata,
+    type: 'line',
+    height: 250,
+  })
+</script>
+  
+  <div class="ui segment" id="pressureChart"></div>
+<script>
+  const pressuredata = {
+    labels: [
+      {{#each reading.trendLabels}}
+        "{{this}}",
+      {{/each}}
+    ],
+    datasets: [
+      {
+        name: "Pressure Trend", type: "line",
+        values: [
+          {{#each reading.pressureTrend}}
+            {{this}},
+          {{/each}}
+        ]
+      }
+    ]
+  }
+
+  const pressureChart = new frappe.Chart("#pressureChart", {
+    title: "Pressure Trend",
+    data: pressuredata,
+    type: 'line',
+    height: 250,
+  })
+</script>
+  
+    {{> listreadings station=station}}
+  </section>
+  {{> addreading }}

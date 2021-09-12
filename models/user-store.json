@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstName": "Margaret",
+      "lastName": "McCarthy",
+      "email": "mags@awesomewalls.ie",
+      "password": "hello",
+      "id": "7f0d07b0-1329-11ec-9243-69815da296b0"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "754baa50-132a-11ec-9243-69815da296b0"
+    }
+  ]
+}

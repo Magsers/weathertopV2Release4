@@ -1,0 +1,239 @@
+{
+  "stationList": [
+    {
+      "id": "ff870b30-13c8-11ec-97ab-e7fbfd2b831e",
+      "userid": "f3ce8e30-13c8-11ec-97ab-e7fbfd2b831e",
+      "name": "Ardmore",
+      "lat": "10",
+      "lng": "10",
+      "readings": [],
+      "latestReading": {
+        "id": "0fec4760-13c9-11ec-97ab-e7fbfd2b831e",
+        "code": 500,
+        "temp": 31.87,
+        "windSpeed": 2.69,
+        "pressure": 1009,
+        "windDirection": 132,
+        "timeStamp": "2021-9-12, 12:58:1",
+        "tempTrend": [
+          32.2,
+          27.18,
+          26.15,
+          26.61,
+          30.41,
+          31.13,
+          32.31,
+          32.12
+        ],
+        "windTrend": [
+          3.58,
+          2.22,
+          2.49,
+          4.08,
+          2.68,
+          2.82,
+          3.09,
+          3
+        ],
+        "pressureTrend": [
+          1010,
+          1012,
+          1013,
+          1013,
+          1013,
+          1011,
+          1010,
+          1010
+        ],
+        "trendLabels": [
+          "12/8/2021",
+          "13/8/2021",
+          "14/8/2021",
+          "15/8/2021",
+          "16/8/2021",
+          "17/8/2021",
+          "18/8/2021",
+          "19/8/2021"
+        ]
+      },
+      "weatherCode": "Heavy Showers",
+      "iconClass": "cloud showers heavy icon",
+      "fahrenheit": "89.37",
+      "beaufort": 1,
+      "windDirection": "South East",
+      "windChill": 35.53,
+      "minTemp": "10",
+      "maxTemp": 31.87,
+      "minWind": 2.69,
+      "maxWind": "10",
+      "minPressure": "1000",
+      "maxPressure": 1009,
+      "tempTrend": 0,
+      "tempArrow": "",
+      "windTrend": 0,
+      "windArrow": "",
+      "pressureTrend": 0,
+      "pressureArrow": ""
+    },
+    {
+      "id": "c2a6d370-13c9-11ec-bfe0-b149933e6521",
+      "userid": "a156d760-13c9-11ec-bfe0-b149933e6521",
+      "name": "Ardmore",
+      "lat": "20",
+      "lng": "20",
+      "readings": [
+        {
+          "id": "c76286c0-13c9-11ec-bfe0-b149933e6521",
+          "code": 800,
+          "temp": 37.21,
+          "windSpeed": 3.4,
+          "pressure": 1009,
+          "windDirection": 48,
+          "timeStamp": "2021-9-12, 13:3:9"
+        }
+      ]
+    },
+    {
+      "id": "f93b9020-13c8-11ec-97ab-e7fbfd2b831e",
+      "userid": "f3ce8e30-13c8-11ec-97ab-e7fbfd2b831e",
+      "name": "Dunmanway",
+      "lat": "20",
+      "lng": "20",
+      "readings": []
+    },
+    {
+      "id": "636860c0-13c6-11ec-8d3c-4f1551c9031a",
+      "userid": "754baa50-132a-11ec-9243-69815da296b0",
+      "name": "Kinsale",
+      "lat": "10",
+      "lng": "10",
+      "readings": [
+        {
+          "readingid": "69cd7e50-13c6-11ec-8d3c-4f1551c9031a",
+          "code": "100",
+          "temp": "10",
+          "windSpeed": "10",
+          "windDirection": "10",
+          "pressure": "1000",
+          "timeStamp": "2021-9-12, 12:39:4"
+        },
+        {
+          "readingid": "711d22f0-13c6-11ec-8d3c-4f1551c9031a",
+          "code": 500,
+          "temp": 31.87,
+          "windSpeed": 2.69,
+          "pressure": 1009,
+          "windDirection": 132,
+          "timeStamp": "2021-9-12, 12:39:15",
+          "tempTrend": [
+            32.2,
+            27.18,
+            26.15,
+            26.61,
+            30.41,
+            31.13,
+            32.31,
+            32.12
+          ],
+          "windTrend": [
+            3.58,
+            2.22,
+            2.49,
+            4.08,
+            2.68,
+            2.82,
+            3.09,
+            3
+          ],
+          "pressureTrend": [
+            1010,
+            1012,
+            1013,
+            1013,
+            1013,
+            1011,
+            1010,
+            1010
+          ],
+          "trendLabels": [
+            "12/8/2021",
+            "13/8/2021",
+            "14/8/2021",
+            "15/8/2021",
+            "16/8/2021",
+            "17/8/2021",
+            "18/8/2021",
+            "19/8/2021"
+          ]
+        }
+      ],
+      "latestReading": {
+        "readingid": "711d22f0-13c6-11ec-8d3c-4f1551c9031a",
+        "code": 500,
+        "temp": 31.87,
+        "windSpeed": 2.69,
+        "pressure": 1009,
+        "windDirection": 132,
+        "timeStamp": "2021-9-12, 12:39:15",
+        "tempTrend": [
+          32.2,
+          27.18,
+          26.15,
+          26.61,
+          30.41,
+          31.13,
+          32.31,
+          32.12
+        ],
+        "windTrend": [
+          3.58,
+          2.22,
+          2.49,
+          4.08,
+          2.68,
+          2.82,
+          3.09,
+          3
+        ],
+        "pressureTrend": [
+          1010,
+          1012,
+          1013,
+          1013,
+          1013,
+          1011,
+          1010,
+          1010
+        ],
+        "trendLabels": [
+          "12/8/2021",
+          "13/8/2021",
+          "14/8/2021",
+          "15/8/2021",
+          "16/8/2021",
+          "17/8/2021",
+          "18/8/2021",
+          "19/8/2021"
+        ]
+      },
+      "weatherCode": "Heavy Showers",
+      "iconClass": "cloud showers heavy icon",
+      "fahrenheit": "89.37",
+      "beaufort": 1,
+      "windDirection": "South East",
+      "windChill": 35.53,
+      "minTemp": "10",
+      "maxTemp": 31.87,
+      "minWind": 2.69,
+      "maxWind": "10",
+      "minPressure": "1000",
+      "maxPressure": 1009,
+      "tempTrend": 0,
+      "tempArrow": "",
+      "windTrend": 0,
+      "windArrow": "",
+      "pressureTrend": 0,
+      "pressureArrow": ""
+    }
+  ]
+}
